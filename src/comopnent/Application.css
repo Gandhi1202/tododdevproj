@@ -1,0 +1,298 @@
+.main-div {
+    width: 40%;
+    margin: auto;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 6px;
+    margin-top: 5%;
+}
+
+@media(max-width:850px)
+{
+    .main-div {
+        width: 80%;
+        margin: auto;
+        box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.1);
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border-radius: 6px;
+        margin-top: 20%;
+    }
+}
+.create-text {
+    font-weight: 500;
+    font-size: x-large
+}
+
+.twitter {
+    display: flex;
+    justify-content: center;
+    border: 1px solid skyblue;
+    gap: 2%;
+    align-items: center;
+    justify-items: center;
+    padding: 1%;
+    background-color: rgb(70, 189, 245);
+    color: white;
+    border-radius: 3px;
+
+}
+
+.above-options-register {
+    width: 80%;
+    margin: auto;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: 1px solid rgba(28, 61, 134, 0.877);
+    background-color: rgba(28, 61, 134, 0.877);
+    margin-top: 2%;
+    padding: 1%;
+    border-radius: 3px;
+    gap: 2%;
+}
+
+.or-line {
+    width: 80%;
+    margin: auto;
+}
+
+.person-name {
+    display: flex;
+    width: 80%;
+    border: 1px solid rgb(197, 196, 196);
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+.person-icon {
+    width: 10%;
+    background-color: rgb(238, 238, 238);
+    padding: 2%;
+    border-right: 1px solid rgb(197, 196, 196);
+    color: rgb(89, 89, 90);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    align-items: center;
+    display: flex
+;
+    justify-content: center;
+}
+
+.person-text {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+    outline: none;
+}
+
+
+
+.email-name {
+    display: flex;
+    margin: auto;
+    border: 1px solid rgb(197, 196, 196);
+    margin-top: 3%;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.email-icon {
+    background-color: rgb(238, 238, 238);
+    padding: 2%;
+    width: 10%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid rgb(197, 196, 196);
+    align-items: center;
+    display: flex
+;
+    justify-content: center;
+}
+
+.email-text {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border:none;
+    width: 90%;
+    outline: none;
+}
+
+/* .email-text input[type="email"] {
+    border-radius: 5px;
+    padding: 2%;
+    width: 100%;
+    border: none;
+    outline: none;
+} */
+
+.phone-number {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+    border: 1px solid rgb(197, 196, 196);
+    border-radius: 5px;
+}
+
+.phone-icon {
+    background-color: rgb(238, 238, 238);
+    padding: 2%;
+    width: 10%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid rgb(197, 196, 196);
+    align-items: center;
+    display: flex
+;
+    justify-content: center;
+}
+
+.country-name {
+    padding: 10px;
+    font-size: 16px;
+    /* border-radius: 5px; */
+    border: none;
+    width: 25%;
+    outline: none;
+    border-right: 1px solid gainsboro;
+}
+
+
+
+.phone-text {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 65%;
+    outline: none;
+}
+
+
+
+.work-name {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    border: 1px solid rgb(197, 196, 196);
+    border-radius: 5px;
+    margin-top: 3%;
+}
+
+.work-icon {
+    background-color: rgb(238, 238, 238);
+    width: 10%;
+    padding: 2%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid rgb(197, 196, 196);
+    align-items: center;
+    display: flex
+;
+    justify-content: center;
+}
+
+.work-dropdown {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border:none;
+    width: 90%;
+    outline: none;
+}
+
+.work-dropdown select {
+    width: 100%;
+    padding: 2%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.password-name {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border: 1px solid rgb(197, 196, 196);
+    border-radius: 5px;
+    margin-top: 2%;
+
+}
+
+.password-icon {
+    width: 10%;
+    background-color: rgb(238, 238, 238);
+    border-right: 1px solid rgb(197, 196, 196);
+    padding: 2%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.password-text {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border:none;
+    width: 90%;
+    outline: none;
+}
+
+
+.passsword-strength{
+    width:80%;
+    margin: auto;
+    /* display: flex;
+    justify-content: center; */
+
+}
+.button-create{
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    
+}
+.create-button{
+    width: 100%;
+    background-color: rgb(54, 128, 240);
+    padding: 2%;
+    border-radius: 5px;
+    border:none;
+    color:white;
+    font-size:larger
+}.or-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.line {
+    /* display: flex; */
+    flex-grow: 1;
+}
+
+.searc-select{
+ text-align: left;
+    width:100%;
+  
+}
+.css-tj5bde-Svg {
+    color: orange;
+}
+/* Remove the left border of the react-select component */
+.css-1u9des2-indicatorSeparator {
+   width: 0px !important;
+}

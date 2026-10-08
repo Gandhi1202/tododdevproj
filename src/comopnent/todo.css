@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.todo-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#new-task {
+    width: 70%;
+}
+
+#due-date {
+    width: 28%;
+}
+
+#add-task {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#add-task:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.edit-task, .delete-task {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}
+
+.completed {
+    text-decoration: line-through;
+    background-color: #d0ffd0;
+}
+
+@media screen and (max-width: 768px) {
+    .todo-container {
+        padding: 15px;
+    }
+
+    .input-container {
+        flex-direction: column;
+        align-items: stretch;
+        width: 70%;
+        margin: auto;
+    }
+
+    #new-task, #due-date {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #add-task {
+        width: 72%;
+        margin:auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .todo-container {
+        padding: 10px;
+    }
+
+    .input-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #new-task, #due-date {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #add-task {
+        width: 100%;
+    }
+}

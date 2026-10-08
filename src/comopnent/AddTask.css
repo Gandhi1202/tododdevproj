@@ -1,0 +1,212 @@
+.zing {
+    margin-left: 60px;
+    margin-top: 5%;
+  }
+  .main-div-task {
+    width: 80%;
+    margin: auto;
+  }
+  @media(max-width:765px)
+  {
+    .main-div-task{
+      margin-top: 15%;
+    }
+  }
+  
+  @media(max-width:765px)
+  {
+    .zing {
+      margin: auto;
+    }
+  }
+  .todoinput {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: x-large;
+  }
+  
+  .border-1 {
+    border: 1px solid rgb(221, 219, 219);
+    /* display: flex;
+      justify-content: center; */
+    margin: auto;
+    /* margin-left: 90px; */
+    border-radius: 5px;
+  
+  }
+  
+  .book-icon {
+    /* border: 1px solid rgb(212, 212, 212); */
+    width: 5%;
+    /* margin: auto; */
+    padding: 6px;
+    background-color: rgb(36, 175, 194);
+    color: white;
+    border: rgb(36, 175, 194);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inp-book {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(199, 199, 199);
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .ttt {
+    padding: 10px;
+    /* font-size: 16px; */
+    /* border-radius: 5px; */
+    border: 1px solid #ffffff;
+    width: 95%;
+    outline: none;
+    border-right: 1px solid gray;
+  
+  }
+  
+  .button-add {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .button-add button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(36, 175, 194);
+    border: rgb(36, 175, 194);
+    border-radius: 5px;
+    color: white;
+    /* font-size: small; */
+    font-weight: 400;
+  }
+  
+  .table-1 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid black;
+  }
+  
+  .table-1 th,
+  .table-1 td {
+    text-align: left;
+    border: 1px solid black;
+  }
+  
+  .save-task {
+    margin-top: 20px;
+    /* display: flex;
+    flex-direction: row; */
+    border: 1px solid rgb(184, 182, 182);
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Task Row (like table row) */
+  .task-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  
+  .task-actions {
+    display: flex;
+    align-items: center;
+  
+    width: 10%;
+  
+  }
+  
+  .task-actions input {
+    margin-right: 10px;
+  }
+  
+  .edit-icon {
+    cursor: pointer;
+    color: rgb(192, 192, 41);
+   
+    width: 10%;
+  }
+  
+  .delete-icon {
+    cursor: pointer;
+    color: rgb(218, 34, 34);
+  
+    width: 10%;
+  }
+  
+  /* Task Row */
+  .task-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* When editing */
+  .task-row.editing {
+    background-color: #f0f0f0; /* Change background for the editing task */
+  }
+  
+  /* Input styles */
+  .edit-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .edit-form input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .edit-form button {
+    padding: 5px 10px;
+    background-color: rgb(36, 175, 194);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-icon,
+  .delete-icon {
+    cursor: pointer;
+  }
+  
+  .edit-icon {
+    color: rgb(192, 192, 41);
+  }
+  
+  .delete-icon {
+    color: rgb(218, 34, 34);
+  }
+  
+  .task-name {
+    flex-grow: 1;
+    width:90%;
+  }
+  
+  
