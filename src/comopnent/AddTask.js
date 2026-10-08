@@ -72,7 +72,7 @@ const AddTask = () => {
     <div className="zing">
       <div className="main-div-task">
         <div className="todoinput">
-          <p>Todo Input</p>
+          <p>Todo inputs</p>
         </div>
         <form onSubmit={addTaskSubmit}>
           <div className="border-1">
